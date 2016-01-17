@@ -70,6 +70,16 @@
 		<version>1.5.2</version>
 	</dependency>   
 	<dependency>
+		<groupId>org.apache.spark</groupId>
+		<artifactId>spark-streaming_2.10</artifactId>
+		<version>1.5.2</version>
+	</dependency>
+	<dependency>
+		<groupId>org.apache.spark</groupId>
+		<artifactId>spark-streaming-kafka_2.10</artifactId>
+		<version>1.5.2</version>
+	</dependency>
+	<dependency>
 		<groupId>com.twitter</groupId>
 		<artifactId>algebird-core_2.10</artifactId>
 		<version>0.11.0</version>
