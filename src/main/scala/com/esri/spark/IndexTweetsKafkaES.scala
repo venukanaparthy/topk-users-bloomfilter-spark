@@ -32,7 +32,7 @@ object IndexTweetsKafkaES {
 
       newSsc
     }
-    val ssc = StreamingContext.getActiveOrCreate(createStreamingContext)
+    val ssc = new StreamingContext(sc, Seconds(1))//StreamingContext.getActiveOrCreate(createStreamingContext)
     
     val brokers = "localhost:9092"
     val topics = Set("tweets")
